@@ -1,5 +1,14 @@
-function greeter(person) {
-    return "Hello" + person;
-}
-var user = "Keiji Terazawa";
-document.body.innerHTML = greeter(user);
+var StartUp = /** @class */ (function () {
+    function StartUp() {
+    }
+    StartUp.main = function () {
+        var user = "Keiji Terazawa";
+        console.log(new StartUp().greeter(user));
+        return 0;
+    };
+    StartUp.prototype.greeter = function (person) {
+        return "Hello" + person;
+    };
+    return StartUp;
+}());
+StartUp.main();

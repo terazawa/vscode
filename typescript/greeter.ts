@@ -1,5 +1,13 @@
-function greeter( person: string ) {
-    return "Hello" + person;
+class StartUp {
+    public static main() : number {
+        let user = "Keiji Terazawa";
+        console.log(new StartUp().greeter(user));
+        return 0;
+    }
+
+    greeter( person: string ) {
+        return "Hello " + person;
+    }
 }
-let user = "Keiji Terazawa";
-document.body.innerHTML = greeter(user);
+
+StartUp.main();
