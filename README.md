@@ -42,3 +42,13 @@ vscode extension tutorial
 * https://code.visualstudio.com/api/get-started/your-first-extension
 * https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 * https://github.com/Microsoft/vscode-extension-samples
+
+### build & run
+
+* package.json (npm)
+  * compile tsc
+  * watch = recompile changed files
+  * npm run xxx
+    * npm start = npm run start
+* launch.json (vscode)
+  * run debug by vscode
