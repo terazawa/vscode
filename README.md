@@ -47,7 +47,8 @@ vscode extension tutorial
 
 * package.json (npm)
   * compile tsc
-  * watch = recompile changed files
+  * -w : watch = recompile changed files
+  * -p : package = read from tsconfig.json
   * npm run xxx
     * npm start = npm run start
 * launch.json (vscode)
